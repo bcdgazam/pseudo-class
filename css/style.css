@@ -80,3 +80,42 @@ li::before {
 li::before{
     content: "❤️ ";
 }
+
+
+
+/*Position*/
+
+.container{
+    background-color: #ddd;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+}
+
+#first{
+    background-color: aqua;
+}
+
+#second{
+    background-color: bisque;
+    position: relative;
+    /*position: absolute;*/
+    /*position: fixed;*/
+    left: 100px;
+}
+
+#third{
+    background-color: aquamarine;
+}
+
+
+/*specificity*/
+h4{
+    color: cyan;
+}
+
+.specificity-class{
+    color: #cc0000;
+}
