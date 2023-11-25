@@ -3,6 +3,8 @@
     padding: 0;
 }
 
-.special-effect{
-    
+input:focus{
+    font-weight: 700;
+    color: green;
+    font-size: 20px;
 }
