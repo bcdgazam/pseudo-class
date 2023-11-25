@@ -13,3 +13,70 @@ input:focus{
     color: green;
     font-size: 20px;
 }
+
+/*pseudo : Classes 
+
+li:first-child{
+    background-color: #cc0000;
+    color: #fff;
+}
+
+li:last-child{
+    background-color: #cc0000;
+    color: #fff;
+}
+
+li:nth-child(2n){  //even number//
+    background-color: #cc0000;
+    color: #fff;
+}
+
+li:nth-child(2n+1){  //odd number//
+    background-color: #cc0000;
+    color: #fff;
+}
+
+button:hover{
+    color: #cc0000;
+}
+
+a:visited{
+    color: #cc0000;
+}
+
+*/
+
+
+
+
+
+/*Pseudo-elements :: */
+
+h1::before{
+    content: "Hello ";
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background-color: #cc0000;
+    margin-right: 20px;
+}
+
+.Pseudo-elements::after{
+    content: " Good Bye!";
+    font-size: 15px;
+    background-color: #cc0000;
+    color: #fff;
+}
+
+
+body {
+    counter-reset: section;
+}
+  
+li::before {
+    counter-increment: section;
+    content: "Crush " counter(section) ": ";
+} 
+
+li::before{
+    content: "❤️ ";
+}
