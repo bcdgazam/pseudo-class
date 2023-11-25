@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
 input:focus{
     font-weight: 700;
     color: green;
